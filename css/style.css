@@ -1,0 +1,98 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+  /* Nawigation */
+}
+
+.navigation .container {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.navigation-items {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.navigation .navbar-band {
+  margin: 0 20px;
+  margin-top: 30px;
+  color: yellow;
+}
+
+.navigation {
+  padding: 12px 0;
+  background: black;
+}
+
+.navigation ul {
+  margin: 0 0 0 200px;
+  padding: 0;
+  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 36px;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation a:hover {
+  color: #33d9b2;
+}
+
+.navigation ul ul li {
+  display: block;
+  margin-bottom: 12px;
+  margin-right: 0;
+}
+
+.navigation li ul {
+  display: none;
+  background: #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+
+.navigation li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+.navigation li ul a {
+  color: #0097e6;
+  padding: 0 24px;
+}
+
+.navigation li ul a:hover {
+  color: #33d9b2;
+}
+
+.navigation li ul li {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
